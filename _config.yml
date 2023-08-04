@@ -94,7 +94,14 @@ author_work_experiences:
               description: Design and develop the control system of the 6-DOF robot for a paving tiles machine.
               visibility: true
 
-
+# Publication
+author_publication_details:
+            - publication_title: “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of Mixed reality-based smart manufacturing applications
+              publication_thumbnail: gamershub.png
+              publication_description:
+              publication_url: https://asmedigitalcollection.asme.org/computingengineering/article-abstract/doi/10.1115/1.4062658/1163679/I-can-see-your-password-A-case-study-about?redirectedFrom=fulltext
+              publication_citation: Yang, W., Dengxiong, X., Wang, X., Hu, Y., & Zhang, Y. (2023). “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications. Journal of Computing and Information Science in Engineering, 1-12.
+              visibility: true
 
 # Projects
 author_project_details:
@@ -149,6 +156,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_publication_details: true
 
 # pagination of posts
 paginate: 4

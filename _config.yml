@@ -30,7 +30,7 @@ author_bio: Engineering Ph.D. Candidate with experience in human-robot interacti
 research_interests: Human-robot Interaction, Robotics manipulation, Programming by Demonstration, Robotics System Design, Augmented & Virtual Reality, Human Factors, Tele-robots, Cobots, AGVs, Mobile Manipulators, Cyber-Physical Systems, Digital Twin, Industry 4.0, Smart Factory
 author_email: "wy7711@rit.edu"
 author_location: United States
-author_website_url: "https://sujaykundu.com"
+author_website_url: "https://vinkoyang.github.io/"
 typewrite-text: Dream big. Start small. But most of all start.
 hero_cover_img: cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
@@ -38,6 +38,7 @@ hero_cover_img: cover.jpg # replace this for changing homepage cover (eg. try co
 author_education_details:
               - college_logo: rit.png
                 college_name: Rochester Institute of Technology
+                college_year: 2019 - 2023
                 college_url: https://www.rit.edu/
                 college_degree: PhD
                 description: Engineering Ph.D. Program 
@@ -45,6 +46,7 @@ author_education_details:
 
               - college_logo: HKUST.png
                 college_name: The Hong Kong University of Science and Technology
+                college_year: 2018 - 2019
                 college_url: https://hkust.edu.hk/
                 college_degree: MSc
                 description: Major - Mechanical Engineering | GPA 4.0/4.0
@@ -52,24 +54,40 @@ author_education_details:
 
               - college_logo: NUAA.png
                 college_name: Nanjing University of Aeronautics and Astronautics
-                college_url: https://http://nuaa.edu.cn/
+                college_year: 2014 - 2018
+                college_url: https://nuaa.edu.cn/
                 college_degree: BS
                 description: Major - Aircraft Design and Engineering | GPA 3.9/5.0 Rank 35/302
                 visibility: true
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Rochester Institute of Technology
+              company_logo: rit.png
+              company_url: https://www.rit.edu/
+              designation: Research Assistant 
+              description: Responsible for supporting and assisting Dr. Yunbo Zhang in various research activities and projects in robotic manipulation, human-robot interaction, and AR/VR.
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+
+            - company_name: OPPO US Research Center (Innopeak Tech)
+              company_logo: Oppo-logo.png
+              company_url: https://www.innopeaktech.com/
+              designation: Research Interns 
+              description: A Mixed Reality robot remote control system was developed and implemented on Microsoft HoloLens 2, which allows for remote interaction with an Automated Guided Vehicle (Rover Pro).
+              visibility: true
+
+            - company_name: Rochester Institute of Technology
+              company_logo: rit.png
+              company_url: https://www.rit.edu/
+              designation: Teaching Assistant 
+              description: Taking the lab session of 3D Printing (ISEE-741) and Materials Processing (ISEE-140)
+              visibility: true
+
+            - company_name: Guangdong Bright Dream Robotics Co., Ltd. (BDR)
+              company_logo: BDR.png
+              company_url: https://www.bzlrobot.com/
+              designation: Internship 
+              description: Design and develop the control system of the 6-DOF robot for a paving tiles machine.
               visibility: true
 
 

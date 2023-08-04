@@ -186,7 +186,7 @@ layout: default
       <h1 class="card-title">Selected Publications</h1>
       <br />
       {% for publication in site.author_publication_details %} {% if publication.visibility == true %}
-      <div class="row" id="publication-card{">
+      <div class="row" id="publication-card">
         <div class="col-md-4">
           <br />
           <img
@@ -220,21 +220,22 @@ layout: default
     </div>
 
     {% endif %} {% if site.show_author_project_details == true %}
-    <div id="author_projects" class="card">
+    <div class="card" id="author_publication">
       <h1 class="card-title">Projects</h1>
       <br />
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
-      <div class="row" id="project-card">
-        <div class="col-md-6">
+      <div class="row" id="publication-card">
+        <div class="col-md-4">
+          <br />
           <img
-            src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
-            class="project-img"
+            src="{{site.url}}{{site.baseurl}}/assets/img/projects/{{project.project_thumbnail}}"
+            class="publication-img-center "
           />
         </div>
-        <div class="col-md-4 center">
+        <div class="col-md-8 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
-          <h6 class="experience-info">{{ project.project_info}}</h6>
+          <h6 class="experience-info">{{ project.project_time}}</h6>
           <p class="experience-desc">{{ project.project_description }}</p>
           <p>
             <a class="project-link" href="{{project.project_url}}"

@@ -724,9 +724,10 @@ header {
         height: 200px;
     }
     .publication-img-center {
+        max-width: 95%;
+        max-height: 95%;
         display: block;
         margin: auto;
-        width: 90%;
     }
     #publication-card{
         margin-top:30px;

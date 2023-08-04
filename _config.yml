@@ -97,10 +97,47 @@ author_work_experiences:
 # Publication
 author_publication_details:
             - publication_title: “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of Mixed reality-based smart manufacturing applications
-              publication_thumbnail: gamershub.png
+              publication_thumbnail: 2023_JCISE.jpg
+              publication_authors: <b>Wenhao Yang</b>, Xiwen Dengxiong, Xueting Wang, Yidan Hu, & Yunbo Zhang
+              publication_year: 2023
+              publication_booktitle: Journal of Computing and Information Science in Engineering
               publication_description:
               publication_url: https://asmedigitalcollection.asme.org/computingengineering/article-abstract/doi/10.1115/1.4062658/1163679/I-can-see-your-password-A-case-study-about?redirectedFrom=fulltext
+              #Citation Format: APA
               publication_citation: Yang, W., Dengxiong, X., Wang, X., Hu, Y., & Zhang, Y. (2023). “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications. Journal of Computing and Information Science in Engineering, 1-12.
+              visibility: true
+
+            - publication_title: HAR<sup>2</sup>bot&#58; System Design of a Human-centered Augmented Reality Robot Programming Interface with Cognition Awareness
+              publication_thumbnail: 2023_JIM.jpg
+              publication_authors: <b>Wenhao Yang</b>, Qinqin Xiao, & Yunbo Zhang
+              publication_year: 2023
+              publication_booktitle: Journal of Intelligent Manufacturing
+              publication_description:
+              publication_url: https://link.springer.com/article/10.1007/s10845-023-02096-2
+              #Citation Format: APA
+              publication_citation: Yang, W., Xiao, Q., & Zhang, Y. (2023). HA R 2 bot&#58; a human-centered augmented reality robot programming method with the awareness of cognitive load. Journal of Intelligent Manufacturing, 1-19.
+              visibility: true
+
+            - publication_title: Visualization Error Analysis for Augmented Reality Stereo Video SeeThrough Head-Mounted Displays in Industry 4.0 Applications
+              publication_thumbnail: 2022_MSEC.jpg
+              publication_authors: <b>Wenhao Yang</b>, Yunbo Zhang
+              publication_year: 2022
+              publication_booktitle: International Manufacturing Science and Engineering Conference
+              publication_description:
+              publication_url: https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2022/V002T06A016/1147062
+              #Citation Format: APA
+              publication_citation: Yang, W., & Zhang, Y. (2022, June). Visualization Error Analysis for Augmented Reality Stereo Video See-Through Head-Mounted Displays in Industry 4.0 Applications. In International Manufacturing Science and Engineering Conference (Vol. 85819, p. V002T06A016). American Society of Mechanical Engineers.
+              visibility: true
+
+            - publication_title: An Augmented-Reality Based Human-Robot Interface for Robotics Programming in the Complex Environment
+              publication_thumbnail: 2021_MSEC.jpg
+              publication_authors: <b>Wenhao Yang</b>, Qinqin Xiao, & Yunbo Zhang
+              publication_year: 2021
+              publication_booktitle: International Manufacturing Science and Engineering Conference
+              publication_description:
+              publication_url: https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2021/85079/1115433
+              #Citation Format: APA
+              publication_citation: Yang, W., Xiao, Q., & Zhang, Y. (2021, June). An Augmented-Reality Based Human-Robot Interface for Robotics Programming in the Complex Environment. In International Manufacturing Science and Engineering Conference (Vol. 85079, p. V002T07A003). American Society of Mechanical Engineers.
               visibility: true
 
 # Projects

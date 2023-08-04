@@ -182,21 +182,30 @@ layout: default
     </div>
 
     {% endif %} {% if site.show_author_publication_details == true %}
-    <div class="card" id="author_projects">
+    <div class="card" id="author_publication">
       <h1 class="card-title">Publication</h1>
       <br />
       {% for publication in site.author_publication_details %} {% if publication.visibility == true %}
-      <div class="row" id="project-card">
+      <div class="row" id="publication-card{">
         <div class="col-md-4">
+          <br />
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/publication/{{publication.publication_thumbnail}}"
-            class="project-img"
+            class="publication-img-center"
           />
         </div>
         <div class="col-md-8 center">
-          <h4 class="experience-title">{{ publication.publication_title }}</h4>
-          <!-- <h6 class="experience-info">{{ project.project_info}}</h6> -->
-          <p class="experience-desc">{{ publication.publication_citation }}</p>
+          <h4 class="experience-title"><a href="{{publication.publication_url}}">{{ publication.publication_title }}</a></h4>
+          <h6 class="experience-info">{{ publication.publication_authors}}</h6>
+          <div  class="row">
+            <div class="col-md-10">
+              <p class="experience-desc" style="text-indent:0.6em;">{{publication.publication_booktitle }}</p>
+            </div>
+            <div class="col-md-2">
+              <p class="experience-desc"  style="text-align:left;">{{publication.publication_year }}</p>
+            </div>
+          </div>
+          <i class="experience-desc">{{ publication.publication_citation }}</i>
           <!--
           <p>
             <a class="project-link" href="{{project.project_url}}"

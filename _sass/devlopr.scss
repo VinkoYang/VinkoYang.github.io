@@ -718,6 +718,24 @@ header {
     }
 }
 
+#author_publication {
+    .publication-img {
+        width: 300px;
+        height: 200px;
+    }
+    .publication-img-center {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    #publication-card{
+        margin-top:30px;
+    }
+    .publication-link{
+        color: var(--link-color);
+    }
+}
+
 
 .company-logo {
     width: 100px;

@@ -63,6 +63,7 @@ author_education_details:
 # Experiences
 author_work_experiences:
             - company_name: Rochester Institute of Technology
+              company_year: Aug. 2019 – Aug. 2023
               company_logo: rit.png
               company_url: https://www.rit.edu/
               designation: Research Assistant 
@@ -70,6 +71,7 @@ author_work_experiences:
               visibility: true
 
             - company_name: OPPO US Research Center (Innopeak Tech)
+              company_year: Jun. 2022 – Sep. 2022
               company_logo: Oppo-logo.png
               company_url: https://www.innopeaktech.com/
               designation: Research Interns 
@@ -77,6 +79,7 @@ author_work_experiences:
               visibility: true
 
             - company_name: Rochester Institute of Technology
+              company_year: Aug. 2021 – May.2022
               company_logo: rit.png
               company_url: https://www.rit.edu/
               designation: Teaching Assistant 
@@ -84,6 +87,7 @@ author_work_experiences:
               visibility: true
 
             - company_name: Guangdong Bright Dream Robotics Co., Ltd. (BDR)
+              company_year: May. 2019 – Aug. 2019
               company_logo: BDR.png
               company_url: https://www.bzlrobot.com/
               designation: Internship 

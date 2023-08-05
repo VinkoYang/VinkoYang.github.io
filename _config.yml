@@ -105,6 +105,7 @@ author_publication_details:
               publication_url: https://asmedigitalcollection.asme.org/computingengineering/article-abstract/doi/10.1115/1.4062658/1163679/I-can-see-your-password-A-case-study-about?redirectedFrom=fulltext
               #Citation Format: APA
               publication_citation: Yang, W., Dengxiong, X., Wang, X., Hu, Y., & Zhang, Y. (2023). “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications. Journal of Computing and Information Science in Engineering, 1-12.
+              publication_video: https://youtu.be/Erm2c_CijZY
               visibility: true
 
             - publication_title: HAR<sup>2</sup>bot&#58; System Design of a Human-centered Augmented Reality Robot Programming Interface with Cognition Awareness
@@ -116,6 +117,7 @@ author_publication_details:
               publication_url: https://link.springer.com/article/10.1007/s10845-023-02096-2
               #Citation Format: APA
               publication_citation: Yang, W., Xiao, Q., & Zhang, Y. (2023). HA R 2 bot&#58; a human-centered augmented reality robot programming method with the awareness of cognitive load. Journal of Intelligent Manufacturing, 1-19.
+              publication_video: https://youtu.be/WaCDuhDZ1YM
               visibility: true
 
             - publication_title: Visualization Error Analysis for Augmented Reality Stereo Video SeeThrough Head-Mounted Displays in Industry 4.0 Applications
@@ -127,6 +129,7 @@ author_publication_details:
               publication_url: https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2022/V002T06A016/1147062
               #Citation Format: APA
               publication_citation: Yang, W., & Zhang, Y. (2022, June). Visualization Error Analysis for Augmented Reality Stereo Video See-Through Head-Mounted Displays in Industry 4.0 Applications. In International Manufacturing Science and Engineering Conference (Vol. 85819, p. V002T06A016). American Society of Mechanical Engineers.
+              publication_video:
               visibility: true
 
             - publication_title: An Augmented-Reality Based Human-Robot Interface for Robotics Programming in the Complex Environment
@@ -138,6 +141,7 @@ author_publication_details:
               publication_url: https://asmedigitalcollection.asme.org/MSEC/proceedings-abstract/MSEC2021/85079/1115433
               #Citation Format: APA
               publication_citation: Yang, W., Xiao, Q., & Zhang, Y. (2021, June). An Augmented-Reality Based Human-Robot Interface for Robotics Programming in the Complex Environment. In International Manufacturing Science and Engineering Conference (Vol. 85079, p. V002T07A003). American Society of Mechanical Engineers.
+              publication_video:
               visibility: true
 
 # Projects
@@ -145,35 +149,35 @@ author_project_details:
               - project_title: A Digital Twin Framework for human-robot collaboration
                 project_time: Mar. 2023 – Present
                 project_description: Developed an innovative and comprehensive Digital Twin framework that facilitate seamless and effective collaboration between humans and robots. And a Human-Robot Collaboration (HRC) assembly use case is implemented. The Augmented reality technology is leveraged to enhance the user experience and enable robot programming by demonstration with the digital twin.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: undisclosed.jpg
                 visibility: true
 
               - project_title: A MR-based programming by demonstration for pick-and-place tasks
                 project_time: Jan. 2023 – Present
                 project_description: Built a system to demonstrate the task to the robot by virtually performing it while wearing a MR headset. The system identifies the user's attention and uses machine learning algorithms to generate the robot's program. This approach offers a promising solution for programming pick-and-place tasks and has the potential to improve the efficiency and scalability of industrial automation.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: undisclosed.jpg
                 visibility: true
 
               - project_title: A mobile manipulator for telepresence
                 project_time: Sep. 2022 – Present
                 project_description: Designed a mobile manipulator system capable of performing remote tasks through human interaction. This system enables the perception of the remote environment and control of the robot arm through Augmented Reality implemented system.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: 2022_teleoperation.png
                 visibility: true
 
               - project_title: Cybersecurity risks in Mixed Reality-based smart manufacturing applications
                 project_time: Sep. 2022 – Nov. 2022
                 project_description: This work discusses a potential cybersecurity risk in MR-based smart manufacturing applications where digital passwords can be deciphered through mid-air gestures captured by a single RGB camera. The study develops a machine learning-based hand gesture recognition method with high accuracy to estimate passwords input.
-                project_url: https://gamershub.in
+                project_url: https://youtu.be/Erm2c_CijZY
                 project_thumbnail: 2023_Cybersecurity.jpg
                 visibility: true
 
               - project_title: A Tele-robot System with Mixed-Reality Interaction
                 project_time: Jun. 2022 – Sep. 2022
                 project_description: This study describes the development of a tele-robot control system that utilizes a Mixed Reality headset, (HoloLens 2), to remotely control Automated Guided Vehicles (Rover Pro). The system features a user-friendly interface that offers three control methods&#58; motion control, physical button control, and virtual button control.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: 2022_telerobot.jpg
                 visibility: true
 
@@ -187,42 +191,42 @@ author_project_details:
               - project_title: Augmented reality assisted smart factory management system development
                 project_time: Dec. 2021 – Feb. 2022
                 project_description: An AR headset-based prototyping system has been developed to offer a clear and intuitive digital visualization for the purpose of exploring the potential applications of smart factories. This project presents a case study of a maintenance application in a CNC machine shop for technicians.
-                project_url: https://gamershub.in
+                project_url: https://youtu.be/p6v-WwOH-og
                 project_thumbnail: 2021_smartfactory.jpg
                 visibility: true
 
               - project_title: Augmented reality assisted maintenance and repair system development
                 project_time: Dec. 2021 – Feb. 2022
                 project_description: This project demonstrates the potential of utilizing digital twin technology with an Augmented Reality interface for improved maintenance procedures. By presenting a demo system of a repair process, this work aims to highlight the benefits of using AR for clear and intuitive visualization of the device being repaired, resulting in improved accuracy and ease of instruction for technicians.
-                project_url: 
+                project_url: https://youtu.be/NfVmJfu_26A
                 project_thumbnail: 2021_arrepair.jpg
                 visibility: true
 
               - project_title: An application of depth map completion and super-resolution in AR rendering
                 project_time: Sep. 2021 – Nov. 2021
                 project_description: This project presents an experiment on an AR-based human-robot interaction scenario, aimed at demonstrating the effectiveness of a proposed method for addressing occlusion problems in the rendering of virtual objects. The method involves the use of depth completion and super-resolution techniques to enhance the visual quality.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: 2021_DepthMap.jpg
                 visibility: true
 
               - project_title: Visualization error analysis for augmented reality stereo VST system
                 project_time: May. 2021 – Nov. 2021
                 project_description: In this research study, the sources of registration errors were identified in stereo video see-through systems and a mathematical model was established to describe the propagation of these errors in the display process.
-                project_url: https://gamershub.in
+                project_url: 
                 project_thumbnail: 2021_VSTerror.jpg
                 visibility: true
 
               - project_title: System design of a human-centered AR HRI with cognition awareness
                 project_time: Nov. 2019 – Oct. 2021
                 project_description: This work proposed a novel system, HAR2bot, for path planning tasks in complex environments. The proposed system effectively balances the communication between the operator and the robot to minimize the cognitive burden associated with the design loop, leading to improved task efficiency and accuracy.
-                project_url: https://gamershub.in
+                project_url: https://youtu.be/JPeubcl6sQs
                 project_thumbnail: 2021_ARrobotcognition.jpg
                 visibility: true
 
               - project_title: Augmented reality-based human-robot interaction system
                 project_time: Aug. 2019 – Nov. 2020
                 project_description: This project proposed and developed an intuitive and immersive AR-based interface for cobot (AUBO i5) programming, aiming to address the challenges in performing path planning tasks in complex environments.
-                project_url: https://gamershub.in
+                project_url: https://youtu.be/PO4EoN_ix-Y
                 project_thumbnail: 2020_ARrobotinterface.jpg
                 visibility: true
 

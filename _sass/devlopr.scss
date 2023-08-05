@@ -832,7 +832,7 @@ footer {
 }
 
 /* Most Phones and tablet*/
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     .main-container{
         margin-left: auto;
         margin-right: auto;
@@ -868,11 +868,12 @@ footer {
 
 }
 
+
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 320px to 480px
   */
-
+/*
 @media (min-width: 320px) and (max-width: 480px) {
 
          header {
@@ -951,8 +952,9 @@ footer {
             }
 
 }
-
+*/
 /* Smartphones */
+/*
 @media (min-width: 200px) and (max-width: 319px) {
     header {
         height: auto;
@@ -1031,12 +1033,12 @@ footer {
       }
 
 }
-
+*/
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-
+/*
  @media (min-width: 481px) and (max-width: 767px) {
 
         /*Header Navigation */
@@ -1099,7 +1101,7 @@ footer {
                 float:left;
             }
  }
-
+*/
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {

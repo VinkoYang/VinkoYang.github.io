@@ -823,12 +823,49 @@ footer {
 
 /* Responsive Media Queries */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 993px) {
     .main-container{
         margin-left: auto;
         margin-right: auto;
         width: 70%;
     }
+}
+
+/* Most Phones and tablet*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    #profile-card {
+        order: 1;
+        width: 100%;
+    }
+
+    #aboutme-card {
+        order: 2;
+        width: 100%;
+    }
+
+    #interset-card {
+        order: 3;
+        width: 100%;
+    }
+
+    #education-card {
+        order: 4;
+        width: 100%;
+    }
+
+    #skills-card{
+        order: 5;
+        width: 100%;
+    }
+
+
+
 }
 
  /*

@@ -174,7 +174,7 @@ author_project_details:
                 project_time: Jun. 2022 – Sep. 2022
                 project_description: This study describes the development of a tele-robot control system that utilizes a Mixed Reality headset, (HoloLens 2), to remotely control Automated Guided Vehicles (Rover Pro). The system features a user-friendly interface that offers three control methods&#58; motion control, physical button control, and virtual button control.
                 project_url: https://gamershub.in
-                project_thumbnail: undisclosed.jpg
+                project_thumbnail: 2022_telerobot.jpg
                 visibility: true
 
               - project_title: A global calibration to solve the misregistration problems in VST AR system
@@ -202,28 +202,28 @@ author_project_details:
                 project_time: Sep. 2021 – Nov. 2021
                 project_description: This project presents an experiment on an AR-based human-robot interaction scenario, aimed at demonstrating the effectiveness of a proposed method for addressing occlusion problems in the rendering of virtual objects. The method involves the use of depth completion and super-resolution techniques to enhance the visual quality.
                 project_url: https://gamershub.in
-                project_thumbnail: undisclosed.jpg
+                project_thumbnail: 2021_DepthMap.jpg
                 visibility: true
 
               - project_title: Visualization error analysis for augmented reality stereo VST system
                 project_time: May. 2021 – Nov. 2021
                 project_description: In this research study, the sources of registration errors were identified in stereo video see-through systems and a mathematical model was established to describe the propagation of these errors in the display process.
                 project_url: https://gamershub.in
-                project_thumbnail: undisclosed.jpg
+                project_thumbnail: 2021_VSTerror.jpg
                 visibility: true
 
               - project_title: System design of a human-centered AR HRI with cognition awareness
                 project_time: Nov. 2019 – Oct. 2021
                 project_description: This work proposed a novel system, HAR2bot, for path planning tasks in complex environments. The proposed system effectively balances the communication between the operator and the robot to minimize the cognitive burden associated with the design loop, leading to improved task efficiency and accuracy.
                 project_url: https://gamershub.in
-                project_thumbnail: undisclosed.jpg
+                project_thumbnail: 2021_ARrobotcognition.jpg
                 visibility: true
 
               - project_title: Augmented reality-based human-robot interaction system
                 project_time: Aug. 2019 – Nov. 2020
                 project_description: This project proposed and developed an intuitive and immersive AR-based interface for cobot (AUBO i5) programming, aiming to address the challenges in performing path planning tasks in complex environments.
                 project_url: https://gamershub.in
-                project_thumbnail: undisclosed.jpg
+                project_thumbnail: 2020_ARrobotinterface.jpg
                 visibility: true
 
 

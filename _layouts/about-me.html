@@ -33,7 +33,7 @@ layout: default
           class="social-link"
           href="http://instagram.com/{{ site.instagram_username }}"
         >
-          <i class="fab fa-instagram"></i>
+          <i class="fab fa-instagram" style="font-size:24px"></i>
         </a>
         {% endif %} {% if site.medium_username %}
         <a
@@ -44,10 +44,10 @@ layout: default
         </a>
         {% endif %} {% if site.github_username %}
         <a
-          class="social-link"
+          class="social-link" 
           href="http://github.com/{{ site.github_username }}"
         >
-          <i class="fab fa-github"></i>
+          <i class="fab fa-github" style="font-size:24px"></i>
         </a>
         {% endif %} {% if site.behance_username %}
         <a
@@ -61,7 +61,7 @@ layout: default
           class="social-link"
           href="http://linkedin.com/in/{{ site.linkedin_username }}"
         >
-          <i class="fab fa-linkedin-in"></i>
+          <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
         </a>
         {% endif %} {% if site.telegram_username %}
         <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
@@ -80,6 +80,20 @@ layout: default
           href="https://www.flickr.com/photos/{{ site.flickr_username }}"
         >
           <i class="fab fa-flickr"></i>
+        </a>
+        {% endif %} {% if site.youtube_channel %}
+        <a
+          class="social-link"
+          href="https://www.youtube.com/channel/{{ site.youtube_channel }}"
+        >
+          <i class="fab fa-youtube-square" style="font-size:24px"></i>
+        </a>
+        {% endif %} {% if site.bilibili_id %}
+        <a
+          class="social-link"
+          href="https://space.bilibili.com/{{ site.bilibili_id }}"
+        >
+          <i class="fa-brands fa-bilibili" style="font-size:24px"></i>
         </a>
         {% endif %}
       </p>
@@ -248,6 +262,29 @@ layout: default
               >{{ project.project_url}}</a
             >
           </p>
+        </div>
+      </div>
+      <br />
+      {% endif %} {% endfor %}
+    </div>
+
+    {% endif %} {% if site.show_author_teaching == true %}
+    <div class="card" id="author_publication">
+      <h1 class="card-title">Teaching and Talking</h1>
+      <br />
+      {% for teaching in site.author_teaching %} {% if teaching.visibility == true %}
+      <div class="row" id="publication-card">
+        <div class="col-md-4">
+          <br />
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/teaching/{{teaching.teaching_thumbnail}}"
+            class="publication-img-center"
+          />
+        </div>
+        <div class="col-md-8 center">
+          <h4 class="experience-title">{{ teaching.teaching_title }}</h4>
+          <h6 class="experience-info">{{ teaching.teaching_time}}</h6>
+          <p class="experience-desc" >{{ teaching.teaching_description }}</p>
         </div>
       </div>
       <br />

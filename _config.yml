@@ -230,18 +230,28 @@ author_project_details:
                 project_thumbnail: 2020_ARrobotinterface.jpg
                 visibility: true
 
+# Teaching and talking
+author_teaching:
+              - teaching_title: Course development&#58; Introduction to industrial automation and Robots
+                teaching_time: Aug. 2023
+                teaching_description: This course offers college students a comprehensive introduction to the exciting and rapidly evolving field of industrial automation and robotics. In today's technology-driven world, automation plays a crucial role in enhancing productivity and efficiency across various industries. The course aims to equip students with fundamental knowledge and practical insights into automation systems and robotics, enabling them to understand, design, and implement automation solutions.
+                teaching_url: 
+                teaching_thumbnail: 2023_AutoRobot.jpg
+                visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: 
+github_username: VinkoYang
+facebook_username: 
+linkedin_username: wenhaoyang-vinko
+behance_username: 
+instagram_username: Vinko_YANG
+medium_username: 
+telegram_username: 
+dribbble_username: 
+flickr_username: 
+youtube_channel: UCxnmErhS42_5LdIoivTlGOA
+bilibili_id: 388857864
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -272,6 +282,7 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 show_author_publication_details: true
+show_author_teaching: true
 
 # pagination of posts
 paginate: 4

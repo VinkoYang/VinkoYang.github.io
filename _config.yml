@@ -24,7 +24,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: yang.png
+author_logo: yang.jpg
 author: Wenhao Yang
 author_bio: Engineering Ph.D. Candidate with experience in human-robot interaction, robotics manipulation, AR/VR. Strong background in Robotics and Simulation. Seeking a Research/Engineering position in the field of robotics or AR/VR.
 research_interests: Human-robot Interaction, Robotics manipulation, Programming by Demonstration, Robotics System Design, Augmented & Virtual Reality, Human Factors, Tele-robots, Cobots, AGVs, Mobile Manipulators, Cyber-Physical Systems, Digital Twin, Industry 4.0, Smart Factory

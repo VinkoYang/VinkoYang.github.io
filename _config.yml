@@ -160,6 +160,13 @@ author_project_details:
                 project_thumbnail: undisclosed.jpg
                 visibility: true
 
+              - project_title: 3D Model Reconstruction from UAV's Mono RGB Camera&#58; Building Virtual Metaverse Environments
+                project_time: Jun. 2023 – Aug. 2023
+                project_description: Our project focuses on the development of a cutting-edge 3D model reconstruction method utilizing video and flight record data from an Unmanned Aerial Vehicle (UAV). The primary objective is to rapidly create virtual 3D environments, contributing to the emerging metaverse technology.
+                project_url: 
+                project_thumbnail: 2023_drone.jpg
+                visibility: true
+
               - project_title: A mobile manipulator for telepresence
                 project_time: Sep. 2022 – Present
                 project_description: Designed a mobile manipulator system capable of performing remote tasks through human interaction. This system enables the perception of the remote environment and control of the robot arm through Augmented Reality implemented system.

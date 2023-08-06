@@ -766,7 +766,9 @@ header {
         max-width: 95%;
         max-height: 95%;
         display: block;
-        margin: auto;
+        margin-top: 2px;
+        margin-left: auto;
+        margin-right: auto;
     }
     #publication-card{
         margin-top:30px;

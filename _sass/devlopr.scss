@@ -689,6 +689,15 @@ header {
     margin-bottom: .75rem !important;
 }
 
+.scroll {
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+
 // #blog-posts-container{
 //     margin-left:20px !important;
 // }

@@ -969,6 +969,7 @@ footer {
 /* Smartphones */
 
 @media screen and (max-width: 575px) {
+    /*
     header {
         height: auto;
         text-align: center;
@@ -987,7 +988,24 @@ footer {
            #author_details {
                text-align: center;
            }
-    }
+    }*/
+
+        header {
+            background-color: var(--main-background-color);
+            box-shadow:0px;
+            height: auto;
+            width: 100%;
+            padding: 11px;
+
+            #author-img{
+                margin-left:auto;
+                margin-right: auto;
+                width:100%;
+            }
+            #author_details{
+                text-align: center;
+            }
+        }
 
         .company-logo-center {
             display: block;
@@ -1453,4 +1471,8 @@ footer {
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
+}
+
+.mapwidget{
+    width: 20%;
 }

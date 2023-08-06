@@ -669,10 +669,19 @@ header {
 }
 
 .home_card p {
-    margin-left: auto;
-    margin-right: auto;
     font-size: 20px; 
     text-align: justify;
+}
+
+.home_card_v2{
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--card-background-color) !important;
+}
+
+.home_des{
+    font-size: 20px; 
+    margin: 10px 0;
 }
 
 .home_card-title-center {

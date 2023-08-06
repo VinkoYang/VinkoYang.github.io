@@ -856,13 +856,6 @@ footer {
 
 /* Responsive Media Queries */
 
-@media (min-width: 768px) and (max-width: 1200px) {
-    .main-container{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-}
 
 @media screen and (min-width: 1200px) {
     .main-container{
@@ -872,6 +865,15 @@ footer {
     }
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+
 
 
  /*
@@ -879,7 +881,7 @@ footer {
     ##Screen = B/w 320px to 480px
   */
 
-
+/*
 @media (min-width: 320px) and (max-width: 480px) {
 
          header {
@@ -901,6 +903,7 @@ footer {
                      text-align: center;
                  }
           }
+
 
             #mc-embedded-subscribe-form {
                 width: 100%;
@@ -958,11 +961,12 @@ footer {
             }
 
 }
+*/
 
 
 /* Smartphones */
 
-@media (min-width: 200px) and (max-width: 319px) {
+@media screen and (max-width: 575px) {
     header {
         height: auto;
         text-align: center;
@@ -982,6 +986,13 @@ footer {
                text-align: center;
            }
     }
+
+        .company-logo-center {
+            display: block;
+            margin-left: 1%;
+            margin-buttom: 2em;
+            width: 30%;
+        }
 
       #mc-embedded-subscribe-form {
           width: 100%;
@@ -1043,10 +1054,10 @@ footer {
 
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
+    ##Screen = B/w 576px to 767px
   */
 
- @media (min-width: 481px) and (max-width: 767px) {
+ @media (min-width: 576px) and (max-width: 767px) {
 
         
         header {
@@ -1066,12 +1077,13 @@ footer {
             }
         }
 
+
         .main-container{
             margin-left: auto;
             margin-right: auto;
             width: 100%;
         }
-        
+
         #topNav {
             padding-left:  0px;
             padding-right: 0px;

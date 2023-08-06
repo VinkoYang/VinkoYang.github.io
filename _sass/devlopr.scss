@@ -856,7 +856,7 @@ footer {
 
 /* Responsive Media Queries */
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 768px) {
     .main-container{
         margin-left: auto;
         margin-right: auto;
@@ -864,56 +864,14 @@ footer {
     }
 }
 
-/* Most Phones and tablet*/
-@media screen and (max-width:992px) {
-    .main-container{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    /* card class */
-    .card_profile {
-        order: 5;
-        margin: 20px !important;
-        padding: 20px !important;
-        background-color: var(--card-background-color) !important;
-    }
-    .card_aboutme {
-        order: -2;
-        margin: 20px !important;
-        padding: 20px !important;
-        background-color: var(--card-background-color) !important;
-    }
-    .card_reviwer {
-        order: -6;
-        margin: 20px !important;
-        padding: 20px !important;
-        background-color: var(--card-background-color) !important;
-    }
-    .card_skills{
-        order: 0;
-        margin: 20px !important;
-        padding: 20px !important;
-        background-color: var(--card-background-color) !important;
-    }
-    .card_interest{
-        order: -1;
-        margin: 20px !important;
-        padding: 20px !important;
-        background-color: var(--card-background-color) !important;
-    }
-
-
-
-}
 
 
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 320px to 480px
   */
-/*
+
+
 @media (min-width: 320px) and (max-width: 480px) {
 
          header {
@@ -992,9 +950,10 @@ footer {
             }
 
 }
-*/
+
+
 /* Smartphones */
-/*
+
 @media (min-width: 200px) and (max-width: 319px) {
     header {
         height: auto;
@@ -1073,12 +1032,12 @@ footer {
       }
 
 }
-*/
+
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-/*
+
  @media (min-width: 481px) and (max-width: 767px) {
 
         
@@ -1141,7 +1100,7 @@ footer {
                 float:left;
             }
  }
-*/
+
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {

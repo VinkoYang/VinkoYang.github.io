@@ -990,8 +990,18 @@ footer {
         .company-logo-center {
             display: block;
             margin-left: 1%;
-            margin-buttom: 2em;
             width: 30%;
+        }
+
+        .publication-img-center {
+            max-width: 100%;
+            max-height: 95%;
+            display: block;
+            margin: auto;
+        }
+        
+        .experience-title{
+            margin-top: 0.5em;
         }
 
       #mc-embedded-subscribe-form {

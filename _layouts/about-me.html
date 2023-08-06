@@ -173,8 +173,7 @@ layout: default
             </div>
           </div>
           <div class="d-sm-none">
-            <br />
-            <h4>{{detail.college_degree }}</h4>
+            <h4 class="experience-title">{{detail.college_degree }}</h4>
             <h5>{{detail.college_year }}</h5>
           </div>
           <h6 class="experience-info"><a href="{{detail.college_url}}">{{detail.college_name}}</a></h6>
@@ -211,8 +210,7 @@ layout: default
             </div>
           </div>
           <div class="d-sm-none">
-            <br />
-            <h4>{{exp.designation }}</h4>
+            <h4 class="experience-title">{{exp.designation }}</h4>
             <h5>{{exp.company_year }}</h5>
           </div>
           <h6 class="experience-info"><a href="{{exp.company_url}}">{{ exp.company_name}}</a></h6>
@@ -241,13 +239,19 @@ layout: default
         <div class="col-md-8 center">
           <h4 class="experience-title"><a href="{{publication.publication_url}}">{{ publication.publication_title }}</a></h4>
           <h6 class="experience-info">{{ publication.publication_authors}}</h6>
-          <div  class="row">
-            <div class="col-md-10">
-              <p class="experience-desc" style="text-indent:0.6em;">{{publication.publication_booktitle }}</p>
+          <div class="d-none d-md-block">
+            <div  class="row">
+              <div class="col-md-10">
+                <p class="experience-desc" style="text-indent:0.6em;">{{publication.publication_booktitle }}</p>
+              </div>
+              <div class="col-md-2">
+                <p class="experience-desc"  style="text-align:left;">{{publication.publication_year }}</p>
+              </div>
             </div>
-            <div class="col-md-2">
-              <p class="experience-desc"  style="text-align:left;">{{publication.publication_year }}</p>
-            </div>
+          </div>
+          <div class="d-md-none">
+            <p class="experience-desc">{{publication.publication_booktitle }}</p>
+            <h6>{{publication.publication_year }}</h6>
           </div>
           <i class="experience-desc">{{ publication.publication_citation }}</i>
           <p><a class="project-link" href="{{publication.publication_video}}">{{ publication.publication_video}}</a></p>
@@ -268,7 +272,7 @@ layout: default
           <br />
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/projects/{{project.project_thumbnail}}"
-            class="publication-img-center "
+            class="publication-img-center"
           />
         </div>
         <div class="col-md-8 center">

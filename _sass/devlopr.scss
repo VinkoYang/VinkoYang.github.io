@@ -146,6 +146,12 @@ body {
     color: var(--bold-color) !important;
 }
 
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .col-lg-12{
     padding-left: 0px !important;
     padding-top: 20px !important;
@@ -223,6 +229,33 @@ header {
     margin-top: 10px !important;
 }
 .card {
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: var(--card-background-color) !important;
+}
+
+/* card class */
+.card_profile {
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: var(--card-background-color) !important;
+}
+.card_aboutme {
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: var(--card-background-color) !important;
+}
+.card_reviwer {
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: var(--card-background-color) !important;
+}
+.card_skills{
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: var(--card-background-color) !important;
+}
+.card_interest{
     margin: 20px !important;
     padding: 20px !important;
     background-color: var(--card-background-color) !important;
@@ -836,32 +869,39 @@ footer {
     .main-container{
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
-    }
-
-    #profile-card {
-        order: 1;
         width: 100%;
     }
 
-    #aboutme-card {
-        order: 2;
-        width: 100%;
-    }
-
-    #interset-card {
-        order: 3;
-        width: 100%;
-    }
-
-    #education-card {
-        order: 4;
-        width: 100%;
-    }
-
-    #skills-card{
+    /* card class */
+    .card_profile {
         order: 5;
-        width: 100%;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: var(--card-background-color) !important;
+    }
+    .card_aboutme {
+        order: -2;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: var(--card-background-color) !important;
+    }
+    .card_reviwer {
+        order: -6;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: var(--card-background-color) !important;
+    }
+    .card_skills{
+        order: 0;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: var(--card-background-color) !important;
+    }
+    .card_interest{
+        order: -1;
+        margin: 20px !important;
+        padding: 20px !important;
+        background-color: var(--card-background-color) !important;
     }
 
 
@@ -1041,7 +1081,7 @@ footer {
 /*
  @media (min-width: 481px) and (max-width: 767px) {
 
-        /*Header Navigation */
+        
         header {
             background-color: var(--main-background-color);
             box-shadow:0px;

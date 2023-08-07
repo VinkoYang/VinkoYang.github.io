@@ -15,6 +15,14 @@
       <a href="{{post.url}}" class="article-card-link">
         <div id="article-container">
           <div id="article-img">
+            {% if post.type_thumbnail %}
+               <img
+                src="{{site.url}}{{site.baseurl}}/assets/img/posts/types/{{post.type_thumbnail}}"
+                width="50px"
+                height="50px"
+             />
+            {% endif %}
+          <!--
             {% if post.author %}
               {% assign author = post.author %}
               {% if author %}
@@ -26,6 +34,7 @@
              />
               {% endif %}
             {% endif %}
+          -->
 
           </div>
           <div id="article-link">

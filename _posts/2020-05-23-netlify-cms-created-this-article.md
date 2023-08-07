@@ -1,6 +1,7 @@
 ---
 layout: post
 author: johndoe
+type_thumbnail: research.png
 title: Netlify CMS created this Article
 date: 2020-05-23T09:52:20.613Z
 thumbnail: /assets/img/posts/hello.jpg

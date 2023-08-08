@@ -51,14 +51,17 @@
 /* 调整标题字体大小 */
 .post-body h1 {
     font-size: 32px;
+    margin-top: 32px; 
 }
 
 .post-body h2 {
     font-size: 28px;
+    margin-top: 32px; 
 }
 
 .post-body h3 {
     font-size: 24px;
+    margin-top: 24px; 
 }
 
 .post-body h4 {
@@ -159,6 +162,8 @@
 /* 调整图片样式 */
 .post-body img {
     max-width: 100%;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 }
 
 /* 调整代码样式 

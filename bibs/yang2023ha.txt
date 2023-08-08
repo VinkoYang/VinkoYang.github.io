@@ -1,0 +1,10 @@
+@article{yang2023ha,
+  title={HA$$R^{2}$$bot: a human-centered augmented reality robot programming method with the awareness of cognitive load},
+  author={Yang, Wenhao and Xiao, Qinqin and Zhang, Yunbo},
+  journal={Journal of Intelligent Manufacturing},
+  pages={1--19},
+  year={2023},
+  publisher={Springer},
+  doi = {10.1007/s10845-023-02096-2},
+  url = {https://doi.org/10.1007/s10845-023-02096-2}
+}

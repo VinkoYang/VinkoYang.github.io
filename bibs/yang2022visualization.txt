@@ -1,0 +1,13 @@
+@proceedings{yang2022visualization,
+    author = {Yang, Wenhao and Zhang, Yunbo},
+    title = "{Visualization Error Analysis for Augmented Reality Stereo Video See-Through Head-Mounted Displays in Industry 4.0 Applications}",
+    volume = {Volume 2: Manufacturing Processes; Manufacturing Systems},
+    series = {International Manufacturing Science and Engineering Conference},
+    pages = {V002T06A016},
+    year = {2022},
+    month = {06},
+    abstract = "{Under the fourth industrial revolution (Industry 4.0), Augmented Reality (AR) provides new affordances for a variety of applications, such as AR-based human-robot interaction, virtual assembly assistance, and workforce virtual training. The see-through head-mounted displays (STHMDs), based on either optical see-through or video see-through technologies, are the primary AR device to augment the visual perception of the real environment with computer-generated contents through a hand-free headset. Specifically, the video see-through STHMDs process the superimposing of the real environment and virtual contents based on the digital images and output it to users, while optical see-through STHMDs display virtual contents through the optics-based near-eyes display with users' normal view of the real scene kept. For both types of AR devices, the accuracy of visualization is essential. For example, in AR-based human-robot interaction, the inaccurate rendering of 3D virtual objects with respect to the real environment, will lead to users' mistaking operations, and therefore, causes an invalid tool path planning result. In spite of many works related to system calibration and error reduction for optical see-through STHMDs, there are few efforts at figuring out the nature and factors of those errors in video see-through STHMDs. In this paper, taking consumer-available AR video see-through STHMDs as an example, we identify error sources of registration and build a mathematical model of the display progress to describe the error propagation in the stereo video see-through systems. Then, based on the mathematical model of the system, the sensitivity of each error source to the final registration error is analyzed. Finally, possible solutions of error correction are suggested and summarized in the general video see-through STHMDs.}",
+    doi = {10.1115/MSEC2022-85440},
+    url = {https://doi.org/10.1115/MSEC2022-85440},
+    eprint = {https://asmedigitalcollection.asme.org/MSEC/proceedings-pdf/MSEC2022/85819/V002T06A016/6922763/v002t06a016-msec2022-85440.pdf},
+}

@@ -1,0 +1,14 @@
+@article{yang2023can,
+    author = {Yang, Wenhao and Dengxiong, Xiwen and Wang, Xueting and Hu, Yidan and Zhang, Yunbo},
+    title = "{ "I can see your password": A case study about cybersecurity risks in mid-air interactions of mixed reality-based smart manufacturing applications}",
+    journal = {Journal of Computing and Information Science in Engineering},
+    pages = {1-12},
+    year = {2023},
+    month = {06},
+    abstract = "{This paper aims to present a potential cybersecurity risk existing in Mixed Reality (MR)-based smart manufacturing applications that decipher digital passwords through a single RGB camera to capture the user's mid-air gestures. We first created a testbed, which is an MR-based smart factory management system consisting of mid-air gesture-based user interfaces (UIs) on a video see-through MR head-mounted display (HMD). To interact with UIs and input information, the user's hand movements and gestures are tracked by the MR system. We set up the experiment to be the estimation of the password input by users through mid-air hand gestures on a virtual numeric keypad. To achieve this goal, we developed a lightweight machine learning-based hand position tracking and gesture recognition method. This method takes either video streaming or recorded video clips (taken by a single RGB camera in front of the user) as input, where the videos record the users' hand movements and gestures but not the virtual UIs. With the assumption of the known size, position, and layout of the keypad, the machine learning method estimates the password through hand gesture recognition and finger position detection. The evaluation result indicates the effectiveness of the proposed method, with a high accuracy of 97.03\\%, 94.06\\%, and 83.83\\% for 2-digit, 4-digit, and 6-digit passwords, respectively, using real-time video streaming as input.}",
+    issn = {1530-9827},
+    doi = {10.1115/1.4062658},
+    url = {https://doi.org/10.1115/1.4062658},
+    eprint = {https://asmedigitalcollection.asme.org/computingengineering/article-pdf/doi/10.1115/1.4062658/7016768/jcise-23-1093.pdf},
+}
+

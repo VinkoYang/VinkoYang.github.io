@@ -3,7 +3,7 @@ layout: post
 title:  "Unity AR开发 | 获取Controller的Position和Rotation"
 summary: "射线点击UI设计"
 author: Vinko
-type_thumbnail: note.png
+type: notebook
 date: '2020-04-03 04:44:45  +0530'
 category: jekyll
 thumbnail: /assets/img/posts/hello.jpg

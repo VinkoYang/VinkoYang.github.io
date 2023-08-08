@@ -3,7 +3,7 @@ layout: post
 title:  "Unity AR 开发 | 射线点击UI设计"
 summary: "射线点击UI设计"
 author: Vinko
-type_thumbnail: note.png
+type: notebook
 date: '2020-04-02 05:15:54  +0530'
 category: jekyll
 thumbnail: /assets/img/posts/hello.jpg

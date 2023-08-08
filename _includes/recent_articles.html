@@ -15,9 +15,15 @@
       <a href="{{post.url}}" class="article-card-link">
         <div id="article-container">
           <div id="article-img">
-            {% if post.type_thumbnail %}
+            {% if post.type %}
                <img
-                src="{{site.url}}{{site.baseurl}}/assets/img/posts/types/{{post.type_thumbnail}}"
+                src="{{site.url}}{{site.baseurl}}/assets/img/posts/types/{{post.type}}.png"
+                width="50px"
+                height="50px"
+             />
+            {% else %}
+                <img
+                src="{{site.url}}{{site.baseurl}}/assets/img/posts/types/note.png"
                 width="50px"
                 height="50px"
              />

@@ -19,7 +19,6 @@ usemathjax: true
 - Oculus Integration
 - ZED_Unity_Plugin_v2.8.1
 
-![test](https://i.imgur.com/CE3IdSg.png)
 
 ## 2. 新建所需组件
  - Canvas
@@ -29,10 +28,10 @@ usemathjax: true
  - ZED_Rig_Stereo
  - OVRCameraRig
 **Remember: 停用LeftEyeAnchor, CenterEyeAnchor, RightEyeAnchor**
-![Hierarchy列表](https://img-blog.csdnimg.cn/20200402041505770.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTg0MzIzNg==,size_16,color_FFFFFF,t_70#pic_center)
+![Hierarchy列表](https://imgur.com/nHR2KDX)
 
 ## 3. 修改Canvas属性
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200402043510931.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTg0MzIzNg==,size_16,color_FFFFFF,t_70#pic_center)
+![修改Canvas属性](https://imgur.com/07o61vz)
 ### 3.1.调整Position
 ### 3.2.调整Scale
 ### 3.3.Render Mode选择 World Space
@@ -44,13 +43,13 @@ usemathjax: true
 ### 3.7.将UIHelper/LaserPointer拖拽为OVRRaycaster脚本下的Pointer变量
 
 ## 4. 修改UIHelper/LaserPointer属性
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200402044735471.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTg0MzIzNg==,size_16,color_FFFFFF,t_70#pic_center)
+![修改UIHelper/LaserPointer属性](https://imgur.com/qIKJSh2)
 ### 4.1.启用Line Renderer
 ### 4.2.修改Width>>0.005
 
 ## 5. 修改UIHelper/EventSystem属性
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200402045922572.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTg0MzIzNg==,size_16,color_FFFFFF,t_70#pic_center)
+![修改UIHelper/EventSystem属性](https://imgur.com/h9QGwfz)
 ### 5.1.将`RightHandAnchor`或者`LeftHandAnchor`拖入RayTransform变量
 ### 5.2.设置JoyPadClickButton变量
 设置确认按键。
@@ -62,7 +61,7 @@ usemathjax: true
 
 
 ## 6. 验证测试
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200402051037865.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTg0MzIzNg==,size_16,color_FFFFFF,t_70#pic_center)
+![6-test](https://imgur.com/DFUvkzS)
 ### 6.1.在Canvas/Button新建 InfoDisplay 脚本
 
 ```csharp

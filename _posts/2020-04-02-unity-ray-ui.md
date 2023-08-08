@@ -28,10 +28,10 @@ usemathjax: true
  - ZED_Rig_Stereo
  - OVRCameraRig
 **Remember: 停用LeftEyeAnchor, CenterEyeAnchor, RightEyeAnchor**
-![Hierarchy列表](https://imgur.com/nHR2KDX)
+![Hierarchy列表](https://i.imgur.com/nHR2KDX.png)
 
 ## 3. 修改Canvas属性
-![修改Canvas属性](https://imgur.com/07o61vz)
+![修改Canvas属性](https://i.imgur.com/07o61vz.png)
 ### 3.1.调整Position
 ### 3.2.调整Scale
 ### 3.3.Render Mode选择 World Space
@@ -43,13 +43,13 @@ usemathjax: true
 ### 3.7.将UIHelper/LaserPointer拖拽为OVRRaycaster脚本下的Pointer变量
 
 ## 4. 修改UIHelper/LaserPointer属性
-![修改UIHelper/LaserPointer属性](https://imgur.com/qIKJSh2)
+![修改UIHelper/LaserPointer属性](https://i.imgur.com/qIKJSh2.png)
 ### 4.1.启用Line Renderer
 ### 4.2.修改Width>>0.005
 
 ## 5. 修改UIHelper/EventSystem属性
 
-![修改UIHelper/EventSystem属性](https://imgur.com/h9QGwfz)
+![修改UIHelper/EventSystem属性](https://i.imgur.com/h9QGwfz.png)
 ### 5.1.将`RightHandAnchor`或者`LeftHandAnchor`拖入RayTransform变量
 ### 5.2.设置JoyPadClickButton变量
 设置确认按键。
@@ -61,7 +61,7 @@ usemathjax: true
 
 
 ## 6. 验证测试
-![6-test](https://imgur.com/DFUvkzS)
+![6-test](https://i.imgur.com/DFUvkzS.png)
 ### 6.1.在Canvas/Button新建 InfoDisplay 脚本
 
 ```csharp

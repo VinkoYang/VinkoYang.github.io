@@ -19,9 +19,7 @@ usemathjax: true
 - Oculus Integration
 - ZED_Unity_Plugin_v2.8.1
 
-![test](https://imgur.com/415nqke)
-<img src="https://imgur.com/415nqke" alt="Kitten"
-title="test" width="150" height="100" />
+![test](https://i.imgur.com/CE3IdSg.png)
 
 ## 2. 新建所需组件
  - Canvas

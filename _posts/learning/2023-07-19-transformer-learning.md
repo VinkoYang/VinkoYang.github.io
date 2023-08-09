@@ -6,7 +6,7 @@ author: Vinko
 type: learning
 date: '2023-07-19 17:50:54  -0400'
 category: jekyll
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/posts/learning_transformer.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 permalink: /blog/2023-07-19-transformer-learning/
 usemathjax: true

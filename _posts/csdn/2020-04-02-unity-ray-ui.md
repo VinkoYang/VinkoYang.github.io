@@ -6,7 +6,7 @@ author: Vinko
 type: notebook
 date: '2020-04-02 05:15:54  +0530'
 category: jekyll
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/posts/unity_arui_ray.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 permalink: /blog/rayuidesign/
 usemathjax: true

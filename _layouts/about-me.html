@@ -257,19 +257,19 @@ layout: default
         -->
           <div>
             {% if publication.publication_doi %}
-            <a href="{{publication.publication_doi}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; DOI &nbsp;</strong> </button></a>
+            <a href="{{publication.publication_doi}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; DOI &nbsp;</strong> </button></a>
             {% endif %} {% if publication.publication_pdf %}
-            <a href="{{publication.publication_pdf}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; PDF &nbsp;</strong> </button></a>
+            <a href="{{publication.publication_pdf}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; PDF &nbsp;</strong> </button></a>
             {% endif %} {% if publication.ublication_arxiv %}
-            <a href="{{publication.ublication_arxiv}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; arXiv &nbsp;</strong> </button></a>
+            <a href="{{publication.ublication_arxiv}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; arXiv &nbsp;</strong> </button></a>
             {% endif %} {% if publication.publication_code %}
-            <a href="{{publication.publication_code}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; CODE &nbsp;</strong> </button></a>
+            <a href="{{publication.publication_code}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; CODE &nbsp;</strong> </button></a>
             {% endif %} {% if publication.publication_project %}
-            <a href="{{publication.publication_project}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; Project &nbsp;</strong> </button></a>
+            <a href="{{publication.publication_project}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; Project &nbsp;</strong> </button></a>
             {% endif %} {% if publication.publication_video %}
-            <a href="{{publication.publication_video}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; Video &nbsp;</strong> </button></a>
+            <a href="{{publication.publication_video}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; Video &nbsp;</strong> </button></a>
             {% endif %} {% if publication.publication_bibtex %}
-            <a href="{{site.url}}{{site.baseurl}}/bibs/{{publication.publication_bibtex}}"> <button class="btn btn-sm btn-warning"> <strong>&nbsp; BibTex &nbsp;</strong> </button></a>
+            <a href="{{site.url}}{{site.baseurl}}/bibs/{{publication.publication_bibtex}}"> <button class="btn btn-sm btn-dark"> <strong>&nbsp; BibTex &nbsp;</strong> </button></a>
             {% endif %}
           </div>
           <!-- <i class="experience-desc">{{ publication.publication_citation }}</i> -->

@@ -6,7 +6,7 @@ author: Vinko
 type: notebook
 date: '2020-04-03 04:44:45  +0530'
 category: jekyll
-thumbnail: /assets/img/posts/hello.jpg
+thumbnail: /assets/img/posts/unity_arui_controller.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 permalink: /blog/2020-04-03-unity-controller-pose/
 usemathjax: true

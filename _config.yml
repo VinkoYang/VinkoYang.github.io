@@ -96,6 +96,24 @@ author_work_experiences:
 
 # Publication
 author_publication_details:
+            - publication_title: A Global Correction Framework for Camera Registration in Video See-Through Augmented Reality Systems
+              publication_thumbnail: 2023_JCISE_Calibration.jpg
+              publication_authors: <b>Wenhao Yang</b>, Yunbo Zhang
+              publication_year: 2023
+              publication_booktitle: International Manufacturing Science and Engineering Conference
+              publication_description: Journal of Computing and Information Science in Engineering
+              publication_url: 
+              #Citation Format: APA
+              publication_citation: 
+              publication_doi: 
+              publication_pdf:
+              publication_arxiv:
+              publication_code:  
+              publication_project:
+              publication_video: 
+              publication_bibtex: 
+              visibility: true
+
             - publication_title: “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of Mixed reality-based smart manufacturing applications
               publication_thumbnail: 2023_JCISE.jpg
               publication_authors: <b>Wenhao Yang</b>, Xiwen Dengxiong, Xueting Wang, Yidan Hu, & Yunbo Zhang
@@ -167,6 +185,8 @@ author_publication_details:
               publication_video: 
               publication_bibtex: yang2021augmented.txt
               visibility: true
+
+            
 
 # Projects
 author_project_details:

@@ -102,16 +102,16 @@ author_publication_details:
               publication_year: 2023
               publication_booktitle: Journal of Computing and Information Science in Engineering
               publication_description: 
-              publication_url: 
+              publication_url: https://asmedigitalcollection.asme.org/computingengineering/article-abstract/doi/10.1115/1.4063350/1166670/A-Global-Correction-Framework-for-Camera?redirectedFrom=fulltext
               #Citation Format: APA
               publication_citation: 
-              publication_doi: 
+              publication_doi: https://doi.org/10.1115/1.4063350
               publication_pdf:
               publication_arxiv:
               publication_code:  
               publication_project:
               publication_video: 
-              publication_bibtex: 
+              publication_bibtex: yang2023registration.txt
               visibility: true
 
             - publication_title: “I can see your password”&#58; A case study about cybersecurity risks in mid-air interactions of Mixed reality-based smart manufacturing applications
@@ -303,6 +303,7 @@ dribbble_username:
 flickr_username: 
 youtube_channel: UCxnmErhS42_5LdIoivTlGOA
 bilibili_id: 388857864
+google_scholar: citations?hl=zh-CN&user=nzyki6UAAAAJ
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
